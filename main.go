@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
-func main(){
-	fmt.Println("hello","world", "in", "golang!");
+func main() {
+	msg := "Hello world in golang!"
+	fmt.Println("hello", "world", "in", "golang!")
+	fmt.Println(msg)
 }
